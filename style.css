@@ -1,0 +1,150 @@
+body{
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    grid-template-rows: 300px 1fr;
+}
+h2,h3{
+    margin: 0;
+    display: block;
+}
+@font-face {
+    font-family: myfont;
+    src: url(aniron-font/Aniron-7BaP.ttf);
+}
+.font{
+    font-family: 'Montserrat';
+}
+.f{
+    font-size: 34px;
+    color: rgb(43, 28, 2);
+}
+.main{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    background-color: rgb(211, 197, 150);
+    overflow: auto;
+}
+.sidebar{
+    height: 100vh;
+    position: fixed;
+    text-align: right;
+    background-image: url(./pxfuel.jpg) ;
+    background-position: bottom;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.dragon{
+    height: 300px;
+}
+.social-icons{
+    padding-right: 20px;
+    padding-top: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+.fa{
+    text-decoration: none;
+    padding-left: 20px ;
+
+
+}
+.pp{
+
+    margin-top: 50px;
+    height: 180px;
+    border-radius: 50%;
+}
+.fotom{
+    display: flex;
+    justify-content: center;
+
+}
+.title-text{
+    font-family: myfont;
+}
+.top-container{
+    padding-top: 20px;
+    height: 400px;
+    background-color: rgba(252, 236, 185, 0.473);
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: rgb(160, 118, 4);
+}
+.infos{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border-radius: 50px;
+    background-color: rgba(212, 0, 255, 0.342);
+    color: white;
+    margin-top: 10px;
+    width: 200px;
+    margin-right: 75px;
+    margin-left: 75px;    
+}
+.bottom-container{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.intro{
+    padding-top: 10px ;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin: auto;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bilgi{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+    
+}
+.uni img{
+    float: left;
+
+}
+.bilgi > div >img{
+    width: 250px;
+}
+.typing{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.fit{
+    width: 180px;
+}
+.boldt{
+    font-weight: bold;
+}
+.norm{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+.closer{
+    background-color: rgb(88, 64, 18);
+    padding-bottom: 20px;
+}
+.links > a {
+    font-size: 1.5rem;
+    color: #e2d304;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.links > p{
+    color: white;
+}
+.links{
+    padding-top: 20px;
+    
+}
